@@ -1,8 +1,9 @@
 import React from "react";
+import "./style.css";
 
 function About(props) {
   return (
-    <main className="container mt-5">
+    <main className="container">
       <div className="row">
         <div className="content about col-lg-8 col-md-8 col-sm-12 col-xs-12">
 
