@@ -14,7 +14,7 @@ function Navbar(props) {
           <DrawerToggleButton click={props.drawerToggleClickHandler}/>
         </div>
         <div></div>
-        <Link className="p-3 toolbar-logo" to="/">Graham Dickey</Link>
+        <Link className="toolbar-logo" to="/">Graham Dickey</Link>
         <div className="spacer"></div>
         <div className="toolbar-nav-items mr-5">
           <ul>
