@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar";
 import SideDrawer from "./components/SideDrawer";
 import Backdrop from "./components/Backdrop";
 import About from "./pages/About";
+import Footer from "./components/Footer";
 
 function App() {
   const [sideDrawerOpen, setSideDrawerOpen] = useState(false);
@@ -37,6 +38,7 @@ function App() {
           </main>
           
         </div>
+        <Footer />
       </Router>
     </div>
   );
