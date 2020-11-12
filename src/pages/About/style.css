@@ -1,3 +1,7 @@
+.body{
+  position: relative;
+}
+
 .content{
   background-color: #D8DBE2;
   margin-bottom: 10vh;
@@ -15,4 +19,15 @@ hr.solid{
   border-radius: 50%;
   border: 4px solid #58a4b0;
   margin-right: 20px;
+}
+
+@media screen and (max-width: 640px){
+  .about img{
+    width: 50vw;
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    float: none;
+  }
+
 }
