@@ -1,0 +1,36 @@
+.portfolio a{
+  color:#212529;
+}
+
+.card{
+  object-fit: cover;
+} 
+
+.card{
+  padding-top: 66.66%;
+  width: 100%;
+}
+
+ .card-img{
+   position: absolute;
+   top: 0;
+   left: 0;
+   height: 100%;
+   width: 100%;
+  object-fit: cover;
+}
+
+
+
+
+.c-title{
+  background: rgba(255, 166, 48, .75);
+  width: 100%;
+  text-align: center;
+}
+
+.c-title h5{
+  padding: 2px;
+}
+
+
