@@ -6,6 +6,8 @@ import './App.css';
 import Navbar from "./components/Navbar";
 import SideDrawer from "./components/SideDrawer";
 import Backdrop from "./components/Backdrop";
+import About from "./pages/About";
+
 function App() {
   const [sideDrawerOpen, setSideDrawerOpen] = useState(false);
 
@@ -25,6 +27,15 @@ function App() {
           {sideDrawerOpen &&
               <Backdrop click={backdropClickHandler}/>
           }
+
+          <main style={{marginTop:"75px"}}>
+            <Switch>
+              <Route exact path={["/", "/about"]}>
+                <About />
+              </Route>
+            </Switch>
+          </main>
+          
         </div>
       </Router>
     </div>
