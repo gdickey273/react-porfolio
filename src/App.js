@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar";
 import SideDrawer from "./components/SideDrawer";
 import Backdrop from "./components/Backdrop";
 import About from "./pages/About";
+import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 
@@ -35,7 +36,10 @@ function App() {
               <Route exact path={["/", "/about"]}>
                 <About />
               </Route>
-              <Route exact path={["/contact"]}>
+              <Route exact path={"/portfolio"}>
+                <Portfolio />
+              </Route>
+              <Route exact path={"/contact"}>
                 <Contact />
               </Route>
             </Switch>
