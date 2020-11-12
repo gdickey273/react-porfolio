@@ -15,10 +15,14 @@
 }
 
 .toolbar-logo {
+  display: flex;
   background-color: #084C61;
   color:#fff !important;
   margin-left: 5vw;
+  padding: 0 1rem;
   font-size: 1.25rem;
+  height: 100%;
+  align-items: center;
 }
 
 .spacer {
