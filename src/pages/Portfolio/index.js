@@ -2,7 +2,12 @@ import React from "react";
 import "./style.css";
 import Project from "../../components/Project";
 import pantryIMG from "./images/whats-in-the-pantry.png";
-
+import codeQuizIMG from "./images/code-quiz.png";
+import coffeehutIMG from "./images/coffeehut.png";
+import passwordGenIMG from "./images/password-generator.png";
+import weatherIMG from "./images/weather-dashboard.png";
+import workDayIMG from "./images/work-day-scheduler.png";
+import burgerIMG from "./images/burger-screenshot.png";
 function Portfolio(props) {
   return (
     <main className="container mt-5">
@@ -29,27 +34,27 @@ function Portfolio(props) {
             </div>
 
             <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12 mt-xs-2">
-              <Project deployedLink="https://project-2-team-7.herokuapp.com/"src="./assets/images/coffeehut.png" title="CoffeeHut Remote Ordering System" />
+              <Project deployedLink="https://project-2-team-7.herokuapp.com/"src={coffeehutIMG} title="CoffeeHut Remote Ordering System" />
             </div>
           </div>
 
           <div className="row mt-2 mt-xs-0">
             <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12 mt-xs-2">
-              <Project deployedLink="https://calm-mountain-13174.herokuapp.com/"src="./assets/images/burger-screenshot.png" title="Eat-Da-Burger" />
+              <Project deployedLink="https://calm-mountain-13174.herokuapp.com/"src={burgerIMG} title="Eat-Da-Burger" />
             </div>
 
             <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12 mt-xs-2">
-              <Project deployedLink="https://gdickey273.github.io/code-quiz/"src="./assets/images/code-quiz.png" title="Code Quiz" />
+              <Project deployedLink="https://gdickey273.github.io/code-quiz/"src={codeQuizIMG} title="Code Quiz" />
             </div>
           </div>
 
           <div className="row mt-2 mt-xs-0">
             <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12 mt-xs-2">
-              <Project deployedLink="https://gdickey273.github.io/weather-dashboard/" src="./assets/images/weather-dashboard.png" title="Weather Dashboard" />
+              <Project deployedLink="https://gdickey273.github.io/weather-dashboard/" src={weatherIMG} title="Weather Dashboard" />
             </div>
 
             <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12 mt-xs-2">
-              <Project deployedLink="https://gdickey273.github.io/work-day-scheduler/" src="./assets/images/work-day-scheduler.png" title="Workday Scheduler" />
+              <Project deployedLink="https://gdickey273.github.io/work-day-scheduler/" src={workDayIMG} title="Workday Scheduler" />
             </div>
           </div>
 
