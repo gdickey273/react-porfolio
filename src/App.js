@@ -33,7 +33,10 @@ function App() {
 
           <main style={{marginTop:"75px"}}>
             <Switch>
-              <Route exact path={["/", "/about"]}>
+              <Route exact path={"/react-portfolio"}>
+                <About />
+              </Route>
+              <Route exact path={"/about"}>
                 <About />
               </Route>
               <Route exact path={"/portfolio"}>

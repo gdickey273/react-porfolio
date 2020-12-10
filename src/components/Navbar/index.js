@@ -19,7 +19,7 @@ function Navbar(props) {
         <div className="toolbar-nav-items mr-5">
           <ul>
             <li>
-              <Link to="/">About</Link>
+              <Link to="/react-portfolio">About</Link>
             </li>
             <li>
               <Link to="/portfolio">Portfolio</Link>
