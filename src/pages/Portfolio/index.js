@@ -5,7 +5,7 @@ import pantryIMG from "./images/whats-in-the-pantry.png";
 import codeQuizIMG from "./images/code-quiz.png";
 import weatherIMG from "./images/weather-dashboard.png";
 import workDayIMG from "./images/work-day-scheduler.png";
-import burgerIMG from "./images/burger-screenshot.png";
+
 function Portfolio(props) {
   return (
     <main className="container mt-5">
@@ -28,23 +28,13 @@ function Portfolio(props) {
 
           <div className="row mt-2 mt-xs-0">
             <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12 mt-xs-2">
-              <Project deployedLink="https://gdickey273.github.io/whats-in-the-pantry/"src={pantryIMG} title="What's In The Pantry" />
+              <Project deployedLink="https://gdickey273.github.io/whats-in-the-pantry/" src={pantryIMG} title="What's In The Pantry" />
             </div>
 
             <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12 mt-xs-2">
               <Project deployedLink="https://gdickey273.github.io/work-day-scheduler/" src={workDayIMG} title="Workday Scheduler" />
             </div>
-           
-          </div>
 
-          <div className="row mt-2 mt-xs-0">
-            <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12 mt-xs-2">
-              <Project deployedLink="https://calm-mountain-13174.herokuapp.com/"src={burgerIMG} title="Eat-Da-Burger" />
-            </div>
-
-            <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12 mt-xs-2">
-              <Project deployedLink="https://gdickey273.github.io/code-quiz/"src={codeQuizIMG} title="Code Quiz" />
-            </div>
           </div>
 
           <div className="row mt-2 mt-xs-0">
@@ -52,8 +42,12 @@ function Portfolio(props) {
               <Project deployedLink="https://gdickey273.github.io/weather-dashboard/" src={weatherIMG} title="Weather Dashboard" />
             </div>
 
-         
+            <div className="col-lg-6 col-md-6 col-sm-6 col-xs-12 mt-xs-2">
+              <Project deployedLink="https://gdickey273.github.io/code-quiz/" src={codeQuizIMG} title="Code Quiz" />
+            </div>
           </div>
+
+
 
 
         </div>
