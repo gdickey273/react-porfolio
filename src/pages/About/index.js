@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import pic from "./pourhouse-me.jpg";
+import pic from "./me.JPG";
 
 function About(props) {
   return (
