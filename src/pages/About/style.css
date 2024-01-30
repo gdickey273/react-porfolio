@@ -5,6 +5,7 @@
 .content{
   background-color: #D8DBE2;
   margin-bottom: 10vh;
+  padding: 5vh;
 }
 
 hr.solid{
@@ -13,7 +14,7 @@ hr.solid{
 
 
 .about img{
-  width: 20vw;
+  width: 15vw;
   height: auto;
   float: left;
   border-radius: 50%;

@@ -23,7 +23,7 @@ function About(props) {
           <div className="row">
             <div className="col-md-12">
               <img src={pic} alt="Graham Dickey" />
-              <p>My name is Graham Dickey and I am a certified Full-Stack Web Developer through a bootcamp at UNC Chapel Hill. I am currently studying React Native so that I can lead a small team of developers in creating a Native Application for the city of Gibsonville, NC. When I'm not coding I enjoy playing music with my band, The Collection. I play trombone and trumpet in the band, and guitar on the side. Currently I work as a barista and bartender in Saxapahaw NC! Come and see me sometime.</p>
+              <p>My name is Graham Dickey and I am a Full-Stack Web Developer with a knack for learning and applying new skills as needed. I am patient, amicable, and work extremely well in teams. I'm flexible and quick to adapt when faced with obstacles.  </p>
             </div>
           </div>
 
